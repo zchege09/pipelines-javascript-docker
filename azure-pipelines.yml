@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '2c2e3b89-3e35-4717-9998-1988a03bf7af'
   imageRepository: 'zchegepipelinesjavascriptdocker'
-  containerRegistry: 'baitsmycontainerregistry.azurecr.io'
+  containerRegistry: 'akslabslabswzcacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
