@@ -5,6 +5,9 @@
 trigger:
 - main
 
+pool:
+  name: 'SelfHostLinuxBuildAgents'
+
 resources:
 - repo: self
 
@@ -18,8 +21,7 @@ variables:
 
   # Agent VM image name
   
-pool:
-  name: 'SelfHostLinuxBuildAgents'
+
 
 stages:
 - stage: Build
